@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Arrays</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <header>
+       <p>Naam: Zanhua Li</p>
+       <p>Klas: MG1C</p>
+     </header>
+
+  </head>
+  <body>
+
+    <h1 id="showThis"></h1>
+    <script>
+    let showThis = document.getElementById('showThis');
+    let mijnArry = [10];
+    mijnArry.push(11);
+    mijnArry.push(12);
+    showThis.innerHTML = mijnArry;
+    mijnArry[1] = (prompt("Oude waarde" + mijnArry[1] + "geef een nieuwe waarde"));
+    showThis.innerHTML = mijnArry;
+    mijnArry[2] = mijnArry[0] + mijnArry[1];
+    showThis.innerHTML = mijnArry;
+    </script>
+
+<script>
+    let showThis = document.getElementById('showThis');
+    let mijnArry = [11,12,13];
+    let text = "";
+    for (let i = 0; i <mijnArry.length; i++) {
+      text += "index" +i+ "value" + mijnArry[i] + "<br>";
+    }
+    showThis.innerHTML = text;
+</script>
+
+  </body>
+</html>

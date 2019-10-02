@@ -1,0 +1,10 @@
+body{
+  text-align: center;
+  background-image: url('../img/cola.jpg');
+  background-size:cover
+
+}
+#co{
+  margin: 10px;
+  color:#00FFFF
+}

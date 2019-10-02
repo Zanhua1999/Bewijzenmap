@@ -1,0 +1,13 @@
+body{
+  margin: 0 auto;
+  background-image: url('../img/me.jpg');
+  background-size:cover
+
+}
+#peri{
+  margin: 5px;
+  color: #FF0040
+}
+footer{
+  text-align: center;
+}

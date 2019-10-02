@@ -1,0 +1,10 @@
+body{
+  text-align: center;
+  background-image: url('../img/img1.jpg');
+  background-size:cover
+}
+
+#mijnbutton{
+  margin: 0 auto;
+
+}

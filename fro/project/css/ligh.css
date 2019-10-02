@@ -1,0 +1,10 @@
+body{
+  text-align: center;
+  background-image: url('../img/ligh.jpg');
+  background-size:cover
+
+}
+#li{
+  margin: 5px;
+  color: #DF01D7
+}

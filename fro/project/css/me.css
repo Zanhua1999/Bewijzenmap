@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+  background-image: url('../img/doc.jpg');
+  background-size:cover
+
+}
+#about{
+  margin: 100px;
+  color: #FF0040
+}
+#ik{
+  text-align: center;
+  color: #190707
+}
+#voorstel{
+  margin: 30px;
+  text-align: center;
+  color: #000000
+}

@@ -1,0 +1,85 @@
+@media screen and (min-width: 480px) {
+	body {
+	        	background-color: lightblue;
+	}
+}
+#pe1{
+  margin: 50px;
+  color: #FF0040
+}
+
+div.res{
+  float: left;
+  width:22%;
+  margin-right: 2%;
+  margin: 0 auto;
+}
+
+#game{
+           border: solid #f00;
+           margin: 3em;
+           width: 220px;
+           height: 220px;
+           border-width: 5px;
+           background: #ff0;
+       }
+       #media{
+                  border: solid #f00;
+                  margin: 3em;
+                  width: 225px;
+                  height: 225px;
+                  border-width: 5px;
+                  background: #ff0;
+              }
+
+              #com{
+                         border: solid #f00;
+                         margin: 3em;
+                         width: 225px;
+                         height: 225px;
+                         border-width: 5px;
+                         background: #ff0;
+                     }
+
+                     #cth{
+                                border: solid #f00;
+                                margin: 3em;
+                                width: 225px;
+                                height: 225px;
+                                border-width: 5px;
+                                background: #ff0;
+                            }
+
+                            #fro{
+                                       border: solid #f00;
+                                       margin: 3em;
+                                       width: 225px;
+                                       height: 225px;
+                                       border-width: 5px;
+                                       background: #ff0;
+                                   }
+
+                                   #nl{
+                                              border: solid #f00;
+                                              margin: 3em;
+                                              width: 225px;
+                                              height: 225px;
+                                              border-width: 5px;
+                                              background: #ff0;
+                                          }
+                                          #proj{
+                                                     border: solid #f00;
+                                                     margin: 3em;
+                                                     width: 225px;
+                                                     height: 225px;
+                                                     border-width: 5px;
+                                                     background: #ff0;
+                                                 }
+                                                 #uxd{
+                                                            border: solid #f00;
+                                                            margin: 3em;
+                                                            width: 225px;
+                                                            height: 225px;
+                                                            border-width: 5px;
+                                                            background: #ff0;
+                                                        }

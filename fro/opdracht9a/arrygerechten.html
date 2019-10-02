@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Arrays</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <header>
+       <p>Naam: Zanhua Li</p>
+       <p>Klas: MG1C</p>
+     </header>
+
+  </head>
+  <body>
+
+    <h1 id="showThis"></h1>
+
+    <script>
+        let showThis = document.getElementById('showThis');
+        let mijnArry = ["Dumplings","Baozi","Hotpot","Hundun"];
+        let text = "";
+        for (let i = 0; i <mijnArry.length; i++) {
+          text += "Gerechten:" + mijnArry[i] + "<br>";
+        }
+            showThis.innerHTML = text;
+    </script>
+
+  </body>
+</html>

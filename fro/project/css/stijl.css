@@ -1,0 +1,35 @@
+body{
+  text-align: center;
+  background-image: url('../img/background.jpg');
+  background-size:cover
+}
+#kop{
+margin: 100px;
+  color: #7B68EE;
+}
+
+#img1{
+  margin:auto;
+}
+
+#img2{
+  margin:auto;
+}
+
+#img3{
+  margin:auto;
+}
+
+#img4{
+  margin:auto;
+}
+
+#img5{
+  margin:auto;
+}
+
+footer{
+  float: right;
+  display: block;
+  padding: 100px;
+}

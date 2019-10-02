@@ -1,0 +1,19 @@
+body{
+  text-align: center;
+  background-color:  #000000;
+  margin: 0 auto;
+  margin-top: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#kop{
+  color: #ff00ff;
+}
+
+#img_1{
+  display: block;
+  margin: auto;
+  height: 400px;
+  width: 400px;
+}

@@ -1,0 +1,14 @@
+div.res{
+  float: left;
+  width:22%;
+  margin-right: 2%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 480px){
+  div.mobile-collapse{
+    width: 0 auto;
+    float:none;
+    margin-right: 0;
+  }
+}

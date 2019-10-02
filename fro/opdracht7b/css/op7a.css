@@ -1,0 +1,39 @@
+#img{
+	float: left;
+max-width: 100%;
+height: auto;
+margin: 1em;
+margin-right: 1em;
+
+}
+#img2{
+	float: left;
+max-width: 100%;
+height: auto;
+margin: 1em;
+margin-right: 1em;
+}
+#img3{
+	float: left;
+max-width: 100%;
+height: auto;
+margin: 1em;
+margin-right: 1em;
+}
+
+#wows{
+margin: 100px;
+	color: #7B68EE;
+}
+#text{
+float: left;
+}
+#text2{
+float: left;
+}
+
+
+@media screen and (min-width: 480px) {
+	body {
+	        	background-color: lightblue;
+	}

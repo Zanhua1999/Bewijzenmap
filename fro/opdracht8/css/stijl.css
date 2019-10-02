@@ -1,0 +1,40 @@
+#b{
+  width: 500px;
+           border: 1px solid red;
+           text-align: right;
+}
+.keus label{
+  display: inline-block;
+  padding: 1em;
+  background: 	#EE82EE;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+.punten label{
+  display: inline-block;
+  padding: 1em;
+  background: 	#7FFFD4;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+
+
+.beter label{
+  display: inline-block;
+  padding: 1em;
+  background: #00FF7F;
+  cursor: pointer;
+  text-align: center;
+}
+
+.minder label{
+  display: inline-block;
+  padding: 1em;
+  background: yellow;
+  cursor: pointer;
+  text-align: center;
+}

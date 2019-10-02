@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Arrays</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/stijl.css">
+</head>
+<body>
+  <h3>Woorden arrays => tekst</h3>
+    <p id="w"></p>
+
+<img src="https://lh3.googleusercontent.com/t_rgLekvA0Csw_FtVvL_RBUZpMRtViDO4Q3PNvjyBEimmAc2bSPMescL3VaqZgrHjA=w170" alt = "klik" id="mijnbutton">
+<br>
+  <span id="p_1"></span>
+    <span id="p_2"></span>
+      <span id="p_3"></span>
+
+
+<script>
+var mijnbutton = document.getElementById("mijnbutton")
+let woord = document.getElementById('w');
+let zn = ["Destroyers","Cruisers","Battleships","Aircraft carriers"];
+let ww = ["schieten","versnelen","vermijden","vliegen"];
+let tekst="";
+let zn2 = ["apen","Amerikanen","Mexicanen","vogels"];
+
+woord.innerHTML = tekst;
+mijntekst = randomKeuze(zn)
+mijntekst = randomKeuze(zn2)
+
+function randomKeuze(argument){
+  let localArry = argument;
+  console.log(localArry);
+  let lengte = localArry.length;
+  console.log(lengte + "\n");
+  let randomNumer = Math.random();
+  randomNumer = Math.floor(randomNumer * lengte);
+  console.log(localArry[randomNumer]);
+  return localArry[randomNumer];
+}
+
+
+function maakEenTekst(){
+  document.getElementById("p_1").innerHTML =randomKeuze(zn);
+  document.getElementById("p_2").innerHTML =randomKeuze(ww);
+  document.getElementById("p_3").innerHTML =randomKeuze(zn2);
+}
+
+
+
+let opnieuw = document.getElementById("opnieuw");
+mijnbutton.addEventListener("click",maakEenTekst);
+
+</script>
+
+</body>
+</html>

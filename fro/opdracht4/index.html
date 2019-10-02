@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Datum van vandaag</title>
+</head>
+
+<body>
+  <h3>De datum van vandaag is</h3>
+<script type="text/javascript">
+    function getNowFormatDate() {
+    var date = new Date();
+    var seperator1 = "-";
+    var seperator2 = ":";
+    var month = date.getMonth()+ 1;
+    var strDate = date.getDate();
+
+    var currentdate = date.getFullYear() + seperator1 + month + seperator1 + strDate
+            + " " + date.getHours() + seperator2 + date.getMinutes()
+            + seperator2 + date.getSeconds();
+
+    alert(currentdate);
+}
+
+</script>
+<input type="button" value="klik op deze knop" onclick="getNowFormatDate()">
+<p> UTC + 1:00 Amsterdam, Berlijn, Bern, Rome, Stockholm, Wenen. </p>
+
+</body>
+</html>

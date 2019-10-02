@@ -1,0 +1,10 @@
+body{
+text-align: center;
+  background-image: url('../img/pic.jpg');
+  background-size:cover
+
+}
+#pict{
+  margin: 100px;
+  color: #40FF00
+}
