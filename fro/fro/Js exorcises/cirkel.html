@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Zabhua Li  MD1A">
+    <title>CRT</title>
+</head>
+ <style>
+
+</style>
+<body align=center>
+    <div>
+			<p>straal：<input id="r" type="text"></p>
+			<p>omtrek：<input id="cir" type="text"></p>
+			<p>oppervlakte：<input id="area" type="text"></p>
+		</div>
+
+
+
+    <script>
+    var r = prompt("oppervlakte");
+    			r=parseFloat(r) && Number(r);
+
+    			if(!isNaN(r)){
+    				var area=Math.PI*r*r;
+    				var cir=2*Math.PI*r;
+
+    				document.getElementById('r').value= r;
+    				document.getElementById('cir').value=cir.toFixed(2);
+    				document.getElementById('area').value=area.toFixed(2);
+    			}else{
+    				alert("voeg een geldig getal in")
+    			}
+
+    </script>
+</body>
+<footer><a href="index.html">Home</a></footer>
+</html>

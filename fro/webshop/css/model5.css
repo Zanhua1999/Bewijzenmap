@@ -1,0 +1,149 @@
+body{
+  background-color:hsl(120,65%,75%);
+}
+.detai{
+  width: auto;
+  height: 855px;
+  border:  black solid 2px;
+  overflow: hidden;
+}
+#hover{
+  width: 600px;
+  height: 700px;
+  border: #000 solid 2px;
+  text-align: center;
+  overflow: hidden;
+}
+img{
+  width: 600px;
+  height: 700px;
+  cursor: pointer;
+	transition: all 0.6s;
+}
+img:hover{
+				transform: scale(1.4);
+}
+
+#button{
+  background-color: red;
+   border: black solid 2px;
+   color: white;
+   padding: 50px 95px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 30px;
+   margin: 8px 2px;
+   cursor: pointer;
+}
+#button2{
+  background-color: red;
+   border: black solid 2px;
+   color: white;
+   padding: 50px 100px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 30px;
+   margin: 8px 2px;
+   cursor: pointer;
+}
+#content{
+position: absolute;
+top: 5px;
+ display: inline-block;
+ float: right;
+}
+#span1{
+  font-size: 30px;
+}
+p{
+  border: black solid 2px;
+border-radius: 10px;
+display: inline-block;
+position: absolute;
+left: 500px;
+  color: red;
+  font-size: 60px;
+}
+#bottom{
+    border: black solid 2px;
+    width: 1280px;
+    height: 520px;
+}
+
+.available {
+	padding: 55px 0;
+	border-top: solid #EEEEEE 1px;
+	border-bottom: solid #EEEEEE 1px;
+}
+.available h4{
+	font-size: 1.1em;
+	color: #777;
+	margin-bottom: 20px;
+}
+.available li {
+	display: inline;
+	font-size: 0.8125em;
+	padding: 1.5% 2%;
+	color: #555555;
+}
+.available li select {
+	outline:none;
+	display: inline;
+	font-size: 1em;
+	color: #555555;
+	margin-left: 10px;
+	padding: 4px;
+	border: 1px solid rgb(224, 224, 224);
+}
+.available span a{
+	padding-top: 35px;
+	display: block;
+	color: #555555;
+	font-size: 0.8725em;
+	text-transform: uppercase;
+	text-decoration: underline;
+	margin-right: 10px;
+}
+.available span a:hover{
+	text-decoration: none;
+}
+
+.color{
+  margin-top: 20px;
+}
+
+#button3{
+  background-color: red;
+   border: black solid 2px;
+   padding: 30px 30px;
+   display: inline-block;
+   margin: 8px 2px;
+   cursor: pointer;
+}
+
+#button4{
+  background-color: blue;
+   border: black solid 2px;
+   padding: 30px 30px;
+   display: inline-block;
+   margin: 8px 2px;
+   cursor: pointer;
+}
+#button5{
+  background-color: yellow;
+   border: black solid 2px;
+   padding: 30px 30px;
+   display: inline-block;
+   margin: 8px 2px;
+   cursor: pointer;
+}
+#button6{
+  background-color: green;
+   border: black solid 2px;
+   padding: 30px 30px;
+   display: inline-block;
+   margin: 8px 2px;
+   cursor: pointer;
+}

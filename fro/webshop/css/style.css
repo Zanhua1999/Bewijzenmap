@@ -1,0 +1,54 @@
+
+@font-face {
+  font-family: 'myFont';
+  src: url(fonts/gm.ttf) format("truetype");
+}
+
+
+#webName{
+  font-family: myFont;
+  font-size: 500%;
+  background-color: #00FFFF;
+  border-style: double;
+  width: 1000px;
+  border-radius: 800px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+}
+
+#color{
+	background: linear-gradient(90deg, #496eaa, #944fa8, #a8804f, #496eaa);
+		background-size:1800% 400%;
+		position:absolute;
+		top:10px;
+		left:10px;
+		animation:mymove 20s ease infinite;
+		-webkit-animation: mymove 20s ease infinite;
+		-moz-animation: mymove 20s ease infinite;
+    z-index:-1;
+	}
+
+	@keyframes mymove
+	{
+		 0% {
+			background-position: 0% 0%; }
+			50% {
+			background-position: 50% 100%; }
+			100% {
+			 background-position: 100% 0%; }
+	}
+.items{
+  width: 100%;
+}
+.items div{
+  float:left;
+  width:33%;
+  text-align:center;
+}
+
+img{
+  width: 250px;
+  height: 300px;
+  margin: 40px 10px;
+}

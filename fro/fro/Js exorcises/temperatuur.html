@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Zabhua Li  MD1A">
+    <title>CRT</title>
+</head>
+ <style>
+
+</style>
+<body align=center>
+    <div>Kelvin naar celsius：
+        <input id="kc" type="text">
+    </div>
+    <div>celsius naar kelvin：
+        <input id="cs" type="text">
+    </div>
+    <div>
+        <button id="btn">berekennen</button>
+    </div>
+
+
+
+
+    <script>
+    function $(id) {
+        return document.getElementById(id);
+    }
+
+    $('btn').onclick = function() {
+      var kelvin = parseFloat($('kc').value);
+        var rt = (9/5*kelvin)+32;
+        $('kc').value = rt;
+
+
+        var celsius = parseFloat($('cs').value);
+          var rt = celsius+273;
+          $('cs').value = rt;
+    }
+    </script>
+  </body>
+<footer><a href="index.html">Home</a></footer>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Zabhua Li  MD1A">
+    <title>CRT</title>
+</head>
+ <style>
+
+</style>
+<body align=center>
+    <div>Leengte van de balk：
+        <input id="iptw" type="text">
+    </div>
+    <div>Breete van de balk：
+        <input id="ipth" type="text">
+    </div>
+    <div>
+        <button id="btn">berekennen</button>
+    </div>
+    <div>omtrek：
+        <input id="ipto" type="text">
+    </div>
+    <div>oppervlakte：
+        <input id="iptr" type="text">
+    </div>
+  
+
+
+    <script>
+    function $(id) {
+        return document.getElementById(id);
+    }
+
+    $('btn').onclick = function() {
+
+        var width = parseFloat($('iptw').value);
+        var height = parseFloat($('ipth').value);
+        var mianji = 2*width+2*height;
+        $('ipto').value = mianji;
+
+
+
+
+        var width = parseFloat($('iptw').value);
+        var height = parseFloat($('ipth').value);
+        var mianji = width * height;
+        $('iptr').value = mianji;
+    }
+    </script>
+  </body>
+<footer><a href="index.html">Home</a></footer>
+</html>

@@ -1,0 +1,33 @@
+ body {
+  background-color: 	#48D1CC;
+}
+
+h1 {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-decoration: underline;
+}
+
+#wrapper {
+  border-style: inherit;
+  border-radius: 5px;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  margin-top: 10%;
+  background-color: cyan;
+  font-size: 300%;
+}
+
+
+table {
+  border-style: inset;
+  border-color: #48D1CC;
+  background-color: black;
+  margin: auto;
+}
+
+th {
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+}
